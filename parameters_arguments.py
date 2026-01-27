@@ -1,6 +1,4 @@
-def greet_person(name: str) -> None:
-    print("Hello,", name)
-
-
-greet_person("Alex")
-greet_person("Jordan")
+def add_tax(price : float, rate: float) -> float:
+    return price * (1 + rate)
+total = add_tax(10.00, 0.055)
+print(total)

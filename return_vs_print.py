@@ -2,8 +2,8 @@ def add_print(a: int, b: int) -> None:
     print(a + b)
 
 
-def add_return(a: int, b: int) -> int:
-    return a + b
+def add_return(c: int, d: int) -> int:
+    return c + d
 
 
 print("Calling add_print:")
